@@ -50,7 +50,6 @@ public class Opossums : MonoBehaviour
     public void OpossumRotate()
     {
 
-        //opossum.transform.RotateAround(opossum.transform.position, Vector3.back, rotationSpeed * Time.deltaTime);
         opossum.transform.Find("Pivote").RotateAround(opossum.transform.position, Vector3.back, rotationSpeed * Time.deltaTime);
     }
 

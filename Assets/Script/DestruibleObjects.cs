@@ -14,8 +14,6 @@ public class DestruibleObjects : MonoBehaviour
     public float forceImpulse;
     public GameObject water;
     public bool isHidrante;
-    public Image fillImage;
-    public float rellenoDeImagen;
 
 
     //texto
@@ -24,10 +22,7 @@ public class DestruibleObjects : MonoBehaviour
     public bool canRotate;
     private void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player");
-
-        position = transform.position;
-        position.y = position.y - 1;
+        player = GameObject.FindGameObjectWithTag("Player");    
     }
     // Update is called once per frame
     void Update()
@@ -44,7 +39,6 @@ public class DestruibleObjects : MonoBehaviour
             transform.rotation = Quaternion.Slerp(transform.rotation, rotation, Time.deltaTime * 500);
         }       
     }
-    public Vector3 position;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -60,7 +54,7 @@ public class DestruibleObjects : MonoBehaviour
                 if(isHidrante)
                 {
                     isHidrante = false;
-                    Instantiate(water, position , Quaternion.Euler(0,90,0)); 
+                    Instantiate(water, transform.position , Quaternion.Euler(0,90,0)); 
                 }
               
             }
