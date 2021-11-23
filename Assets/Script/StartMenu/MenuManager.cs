@@ -18,6 +18,7 @@ public class MenuManager : MonoBehaviour
     public GameObject continueButton, continueText;
     public GameObject loadIcon;
     public Image principlImage;
+    public AudioSource source;
 
     public string levelToGo;
 
@@ -35,10 +36,31 @@ public class MenuManager : MonoBehaviour
             loadIcon.transform.RotateAround(loadIcon.transform.position, Vector3.forward, rotationSpeed * Time.deltaTime);
         }
     }
+
+    public void FadeMusic()
+    {
+        StartCoroutine(MusicFade());
+    }
+
+    IEnumerator MusicFade()
+    {
+        float timeElapsed = 0;
+        float timeToFade = 5.25f;
+
+        while(timeElapsed < timeToFade)
+        {
+            source.volume = Mathf.Lerp(source.volume, 0, timeElapsed/timeToFade);
+            timeElapsed += Time.deltaTime;
+            yield return null;
+        }
+
+        yield break;
+    }
     IEnumerator InitialPanel()
     {
         yield return new WaitForSeconds(2);
         ActivatePanel(fadePanel, 0, 2, false);
+        source.Play();
 
         yield break;
     }
