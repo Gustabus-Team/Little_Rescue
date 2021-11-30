@@ -35,13 +35,10 @@ public class GameManager : MonoBehaviour
     public void Wintransition() //funcion usada para hacer el fade
     {
 
-        Invoke("changeLevel", 3); //reemplaza el numero con el tiempo que tomara en realizarce tu transicion
+
     }
 
-    public void changeLevel()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);//esto te enviara a la siguiente escena que se encuentre en build settings
-    }
+  
 
 
 }
