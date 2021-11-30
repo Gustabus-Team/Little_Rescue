@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI count;
     public int destroyedObjects; //numero de cosas destruidas en el momento
     public int necessaryToWin = 1; //numero necesario de cosas destruidas para ganar el nivel
-    private bool playing = true;
+    public bool playing = true;
 
     private void Awake()
     {
@@ -30,8 +30,6 @@ public class GameManager : MonoBehaviour
             Wintransition();
         }
     }
-
-
     public void Wintransition() //funcion usada para hacer el fade
     {
         print("Gano nivel");
