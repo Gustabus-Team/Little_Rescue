@@ -20,6 +20,8 @@ public class DestruibleObjects : MonoBehaviour
     public TextMeshProUGUI have;
     public TextMeshProUGUI need;
     public bool canRotate;
+    public bool fueUsado = false;
+
     private void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");    
@@ -39,13 +41,13 @@ public class DestruibleObjects : MonoBehaviour
             transform.rotation = Quaternion.Slerp(transform.rotation, rotation, Time.deltaTime * 500);
         }       
     }
-
     private void OnTriggerEnter(Collider other)
     {
         if(other.CompareTag("Player"))
         {        
-            if(GameManager._gameManager.opposumCount >= countToDestroy)
+            if(GameManager._gameManager.opposumCount >= countToDestroy && !fueUsado)
             {
+                fueUsado = true;
                 for(int i = 0; i < Obstacle.Length; i++)
                 {
                     Obstacle[i].GetComponent<Rigidbody>().isKinematic = false;
@@ -56,7 +58,7 @@ public class DestruibleObjects : MonoBehaviour
                     isHidrante = false;
                     Instantiate(water, transform.position , Quaternion.Euler(0,90,0)); 
                 }
-              
+                GameManager._gameManager.destroyedObjects++;
             }
             else
             {
