@@ -63745,6 +63745,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   opposumCount: 0
   count: {fileID: 1712725680}
+  destroyedObjects: 0
+  necessaryToWin: 1
 --- !u!4 &1150380387
 Transform:
   m_ObjectHideFlags: 0
@@ -106607,6 +106609,7 @@ MonoBehaviour:
   have: {fileID: 1016388067}
   need: {fileID: 1869920772}
   canRotate: 0
+  fueUsado: 0
   panelToFade: {fileID: 217665594}
   inFade: 0
   distance: 40
@@ -118027,7 +118030,7 @@ PrefabInstance:
     - target: {fileID: 5634358032810156798, guid: fa80c9d0ecf18c247987d022a70ae2d8,
         type: 3}
       propertyPath: m_Name
-      value: ZARIGUEYA PLAYER 1
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 5636772330645976106, guid: fa80c9d0ecf18c247987d022a70ae2d8,
         type: 3}

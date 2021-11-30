@@ -35,7 +35,7 @@ public class GameManager : MonoBehaviour
     public void Wintransition() //funcion usada para hacer el fade
     {
         print("Gano nivel");
-
+        GetComponent<UIManager>().LevelComplete();
     }
 
   
