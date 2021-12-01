@@ -8,11 +8,11 @@ public class CameraConfigurations : MonoBehaviour
 
     void FixedUpdate()
     {
-        XRay();
+        //XRay();
     }
 
     // Hacer a los objetos que interfieran con la vision transparentes
-    private void XRay()
+    /*private void XRay()
     {
 
         float characterDistance = Vector3.Distance(transform.position, GameObject.Find("Player").transform.position);
@@ -39,5 +39,5 @@ public class CameraConfigurations : MonoBehaviour
             // Save hit
             oldHit = hit;
         }
-    }
+    }*/
 }
