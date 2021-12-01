@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 4916335167907931243}
   - component: {fileID: 2696665493894996719}
   - component: {fileID: 1299703592101856186}
+  - component: {fileID: 7371401897237198824}
+  - component: {fileID: 1060023752759553561}
   m_Layer: 0
   m_Name: Escalera_de_Parque.028
   m_TagString: Untagged
@@ -81,6 +83,35 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &7371401897237198824
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8939613877189493}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.001029525, y: 0.00006267547, z: 0.00006267547}
+  m_Center: {x: -0.000000007450581, y: -0.0000000037252903, z: 0}
+--- !u!54 &1060023752759553561
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8939613877189493}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &426954312632826350
 GameObject:
   m_ObjectHideFlags: 0
@@ -92,6 +123,8 @@ GameObject:
   - component: {fileID: 6441718259110685272}
   - component: {fileID: 2209226008702685331}
   - component: {fileID: 8042089592308542196}
+  - component: {fileID: 8955256705464622362}
+  - component: {fileID: 6162135339527584016}
   m_Layer: 0
   m_Name: Escalera_de_Parque.017
   m_TagString: Untagged
@@ -162,6 +195,35 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8955256705464622362
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 426954312632826350}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.001029525, y: 0.00006267547, z: 0.00006267547}
+  m_Center: {x: -0.000000007450581, y: 0, z: 5.820766e-11}
+--- !u!54 &6162135339527584016
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 426954312632826350}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &587447202496395027
 GameObject:
   m_ObjectHideFlags: 0
@@ -173,6 +235,8 @@ GameObject:
   - component: {fileID: 582903298846986310}
   - component: {fileID: 6915505439530031477}
   - component: {fileID: 4618687059827903343}
+  - component: {fileID: 2691042190477252257}
+  - component: {fileID: 4135559869262688079}
   m_Layer: 0
   m_Name: Escalera_de_Parque.018
   m_TagString: Untagged
@@ -243,6 +307,35 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &2691042190477252257
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 587447202496395027}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.001029525, y: 0.00006267547, z: 0.00006267547}
+  m_Center: {x: -0.000000007450581, y: 0, z: -1.4551915e-11}
+--- !u!54 &4135559869262688079
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 587447202496395027}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &679096851614540877
 GameObject:
   m_ObjectHideFlags: 0
@@ -254,6 +347,8 @@ GameObject:
   - component: {fileID: 2902827819533057394}
   - component: {fileID: 4877046291326811383}
   - component: {fileID: 1425814882607647175}
+  - component: {fileID: 8011044748826554984}
+  - component: {fileID: 2330674476740387472}
   m_Layer: 0
   m_Name: Escalera_de_Parque.008
   m_TagString: Untagged
@@ -324,6 +419,35 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8011044748826554984
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 679096851614540877}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.001029525, y: 0.00006267547, z: 0.00006267547}
+  m_Center: {x: -0.0000000037252903, y: 0, z: 0}
+--- !u!54 &2330674476740387472
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 679096851614540877}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1063797347295612915
 GameObject:
   m_ObjectHideFlags: 0
@@ -335,6 +459,8 @@ GameObject:
   - component: {fileID: 1902269158742943782}
   - component: {fileID: 488779368336569957}
   - component: {fileID: 2669419856032914249}
+  - component: {fileID: 8389382626861763686}
+  - component: {fileID: 3278096634326249349}
   m_Layer: 0
   m_Name: Escalera_de_Parque.012
   m_TagString: Untagged
@@ -405,6 +531,35 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8389382626861763686
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1063797347295612915}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.001029525, y: 0.00006267547, z: 0.00006267547}
+  m_Center: {x: -0.0000000037252903, y: 0, z: 0}
+--- !u!54 &3278096634326249349
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1063797347295612915}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1201825438683612081
 GameObject:
   m_ObjectHideFlags: 0
@@ -416,6 +571,8 @@ GameObject:
   - component: {fileID: 7727915899073733482}
   - component: {fileID: 2842208360804006693}
   - component: {fileID: 5764334999846133580}
+  - component: {fileID: 6042763461419829798}
+  - component: {fileID: 7448320193961016802}
   m_Layer: 0
   m_Name: Escalera_de_Parque.021
   m_TagString: Untagged
@@ -486,6 +643,35 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &6042763461419829798
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1201825438683612081}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.001029525, y: 0.00006267547, z: 0.00006267547}
+  m_Center: {x: -0.000000007450581, y: -0.0000000037252903, z: 4.656613e-10}
+--- !u!54 &7448320193961016802
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1201825438683612081}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1340257327428583652
 GameObject:
   m_ObjectHideFlags: 0
@@ -497,6 +683,8 @@ GameObject:
   - component: {fileID: 742616240961584363}
   - component: {fileID: 6752060407633858671}
   - component: {fileID: 6012651672899405}
+  - component: {fileID: 2086735937671040167}
+  - component: {fileID: 7314228196931488021}
   m_Layer: 0
   m_Name: Escalera_de_Parque.030
   m_TagString: Untagged
@@ -567,6 +755,35 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &2086735937671040167
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1340257327428583652}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.001029525, y: 0.00006267547, z: 0.00006267547}
+  m_Center: {x: -0.0000000037252903, y: -0.0000000037252903, z: 0}
+--- !u!54 &7314228196931488021
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1340257327428583652}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1776233188356128082
 GameObject:
   m_ObjectHideFlags: 0
@@ -578,6 +795,8 @@ GameObject:
   - component: {fileID: 939173988732596552}
   - component: {fileID: 6990125982525661894}
   - component: {fileID: 7822342014627152991}
+  - component: {fileID: 5224988622116919549}
+  - component: {fileID: 2594898449306139174}
   m_Layer: 0
   m_Name: Escalera_de_Parque.013
   m_TagString: Untagged
@@ -648,6 +867,35 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &5224988622116919549
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1776233188356128082}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.001029525, y: 0.00006267547, z: 0.00006267547}
+  m_Center: {x: -0.0000000037252903, y: 0, z: 0}
+--- !u!54 &2594898449306139174
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1776233188356128082}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &2866984770829981597
 GameObject:
   m_ObjectHideFlags: 0
@@ -659,6 +907,8 @@ GameObject:
   - component: {fileID: 8754439499528596135}
   - component: {fileID: 2255176145941838334}
   - component: {fileID: 8335659268191507309}
+  - component: {fileID: 7134200467890147815}
+  - component: {fileID: 8997140412331192092}
   m_Layer: 0
   m_Name: Escalera_de_Parque.026
   m_TagString: Untagged
@@ -729,6 +979,35 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &7134200467890147815
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2866984770829981597}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.001029525, y: 0.00006267547, z: 0.00006267547}
+  m_Center: {x: -0.0000000037252903, y: 0, z: 0}
+--- !u!54 &8997140412331192092
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2866984770829981597}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &3077456962397093129
 GameObject:
   m_ObjectHideFlags: 0
@@ -740,6 +1019,8 @@ GameObject:
   - component: {fileID: 1721074158191826191}
   - component: {fileID: 2626418399031317077}
   - component: {fileID: 6373059902378282860}
+  - component: {fileID: 375492361490105207}
+  - component: {fileID: 1734371419133671764}
   m_Layer: 0
   m_Name: Escalera_de_Parque.007
   m_TagString: Untagged
@@ -810,6 +1091,35 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &375492361490105207
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3077456962397093129}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.001029525, y: 0.00006267547, z: 0.00006267547}
+  m_Center: {x: -0.0000000037252903, y: 0.0000000037252903, z: 0}
+--- !u!54 &1734371419133671764
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3077456962397093129}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &3328475607137304314
 GameObject:
   m_ObjectHideFlags: 0
@@ -821,6 +1131,8 @@ GameObject:
   - component: {fileID: 2954937966297326367}
   - component: {fileID: 2344349473272489732}
   - component: {fileID: 2996005030518250731}
+  - component: {fileID: 3033075401346996626}
+  - component: {fileID: 7654848372499648881}
   m_Layer: 0
   m_Name: Escalera_de_Parque
   m_TagString: Untagged
@@ -891,6 +1203,35 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &3033075401346996626
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3328475607137304314}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.001029525, y: 0.00006267547, z: 0.00006267547}
+  m_Center: {x: -0.000000007450581, y: 0.0000000037252903, z: 0}
+--- !u!54 &7654848372499648881
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3328475607137304314}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &3543091578417024759
 GameObject:
   m_ObjectHideFlags: 0
@@ -902,6 +1243,8 @@ GameObject:
   - component: {fileID: 1025497808808688685}
   - component: {fileID: 4152732121589530492}
   - component: {fileID: 3899666381099561230}
+  - component: {fileID: 7341798315112401445}
+  - component: {fileID: 8657750891542454369}
   m_Layer: 0
   m_Name: Escalera_de_Parque.020
   m_TagString: Untagged
@@ -972,6 +1315,35 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &7341798315112401445
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3543091578417024759}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.001029525, y: 0.00006267547, z: 0.00006267547}
+  m_Center: {x: -0.0000000037252903, y: 0.0000000037252903, z: 4.656613e-10}
+--- !u!54 &8657750891542454369
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3543091578417024759}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &4008157296346119975
 GameObject:
   m_ObjectHideFlags: 0
@@ -983,6 +1355,8 @@ GameObject:
   - component: {fileID: 2345626455397057670}
   - component: {fileID: 6060787191152793556}
   - component: {fileID: 742823897033067238}
+  - component: {fileID: 8420743294958139519}
+  - component: {fileID: 6627551264006504465}
   m_Layer: 0
   m_Name: Escalera_de_Parque.014
   m_TagString: Untagged
@@ -1053,6 +1427,35 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8420743294958139519
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4008157296346119975}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.001029525, y: 0.00006267547, z: 0.00006267547}
+  m_Center: {x: -0.0000000037252903, y: -0.0000000037252903, z: 0}
+--- !u!54 &6627551264006504465
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4008157296346119975}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &4020136400541650855
 GameObject:
   m_ObjectHideFlags: 0
@@ -1064,6 +1467,8 @@ GameObject:
   - component: {fileID: 764002506990018607}
   - component: {fileID: 7183515676924320842}
   - component: {fileID: 7500936563996404897}
+  - component: {fileID: 2616970324414265555}
+  - component: {fileID: 4488504895764307793}
   m_Layer: 0
   m_Name: Escalera_de_Parque.034
   m_TagString: Untagged
@@ -1134,6 +1539,35 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &2616970324414265555
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4020136400541650855}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.001029525, y: 0.00006267547, z: 0.00006267547}
+  m_Center: {x: -0.0000000037252903, y: 0, z: 5.820766e-11}
+--- !u!54 &4488504895764307793
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4020136400541650855}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &4649014731269846116
 GameObject:
   m_ObjectHideFlags: 0
@@ -1145,6 +1579,8 @@ GameObject:
   - component: {fileID: 481924387850899202}
   - component: {fileID: 6179226924053859782}
   - component: {fileID: 5185843864103863586}
+  - component: {fileID: 4762809563801496416}
+  - component: {fileID: 4315882119332224849}
   m_Layer: 0
   m_Name: Escalera_de_Parque.035
   m_TagString: Untagged
@@ -1215,6 +1651,35 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &4762809563801496416
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4649014731269846116}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.001029525, y: 0.00006267547, z: 0.00006267547}
+  m_Center: {x: -0.0000000037252903, y: -0.000000007450581, z: 5.820766e-11}
+--- !u!54 &4315882119332224849
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4649014731269846116}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &4887373042551888880
 GameObject:
   m_ObjectHideFlags: 0
@@ -1226,6 +1691,8 @@ GameObject:
   - component: {fileID: 8432773272099533802}
   - component: {fileID: 2884353342952871662}
   - component: {fileID: 4643786025518388988}
+  - component: {fileID: 7347610384538782941}
+  - component: {fileID: 9040583494084555224}
   m_Layer: 0
   m_Name: Escalera_de_Parque.003
   m_TagString: Untagged
@@ -1296,6 +1763,35 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &7347610384538782941
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4887373042551888880}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.001029525, y: 0.00006267547, z: 0.00006267547}
+  m_Center: {x: -0.000000007450581, y: -0.0000000037252903, z: 0}
+--- !u!54 &9040583494084555224
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4887373042551888880}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &4975073815229869877
 GameObject:
   m_ObjectHideFlags: 0
@@ -1307,6 +1803,8 @@ GameObject:
   - component: {fileID: 850445629986366641}
   - component: {fileID: 7148749958212555272}
   - component: {fileID: 7998444996658436589}
+  - component: {fileID: 8378473191431650368}
+  - component: {fileID: 3401316514682768782}
   m_Layer: 0
   m_Name: Escalera_de_Parque.033
   m_TagString: Untagged
@@ -1377,6 +1875,35 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8378473191431650368
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4975073815229869877}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.001029525, y: 0.00006267547, z: 0.00006267547}
+  m_Center: {x: -0.0000000037252903, y: -0.0000000037252903, z: 1.1641532e-10}
+--- !u!54 &3401316514682768782
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4975073815229869877}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &5000025192061290789
 GameObject:
   m_ObjectHideFlags: 0
@@ -1388,6 +1915,8 @@ GameObject:
   - component: {fileID: 4071053219279982295}
   - component: {fileID: 97264197990423051}
   - component: {fileID: 7859386416852318799}
+  - component: {fileID: 688326875827085294}
+  - component: {fileID: 1149586530813394246}
   m_Layer: 0
   m_Name: Escalera_de_Parque.006
   m_TagString: Untagged
@@ -1458,6 +1987,35 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &688326875827085294
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5000025192061290789}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.001029525, y: 0.00006267547, z: 0.00006267547}
+  m_Center: {x: -0.0000000037252903, y: 0, z: 0}
+--- !u!54 &1149586530813394246
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5000025192061290789}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &5037484272548416000
 GameObject:
   m_ObjectHideFlags: 0
@@ -1469,6 +2027,8 @@ GameObject:
   - component: {fileID: 3543187758017415331}
   - component: {fileID: 5266926463035396100}
   - component: {fileID: 3242840285282680047}
+  - component: {fileID: 5939855638518895995}
+  - component: {fileID: 8868582040130455552}
   m_Layer: 0
   m_Name: Escalera_de_Parque.010
   m_TagString: Untagged
@@ -1539,6 +2099,35 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &5939855638518895995
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5037484272548416000}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.001029525, y: 0.00006267547, z: 0.00006267547}
+  m_Center: {x: -0.0000000037252903, y: 0, z: 0}
+--- !u!54 &8868582040130455552
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5037484272548416000}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &5239556815908734507
 GameObject:
   m_ObjectHideFlags: 0
@@ -1548,6 +2137,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4899201185653185681}
+  - component: {fileID: 8699858852482616555}
+  - component: {fileID: 741576248}
   m_Layer: 0
   m_Name: Escalera de Parque
   m_TagString: Untagged
@@ -1562,7 +2153,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5239556815908734507}
-  m_LocalRotation: {x: -0, y: 0.24104932, z: -0, w: 0.97051287}
+  m_LocalRotation: {x: 0, y: 0.24104966, z: 0, w: 0.9705128}
   m_LocalPosition: {x: -7.2523117, y: 0.5, z: -127.800804}
   m_LocalScale: {x: 40, y: 40, z: 40}
   m_Children:
@@ -1604,9 +2195,86 @@ Transform:
   - {fileID: 481924387850899202}
   - {fileID: 5936221511260456842}
   - {fileID: 475515351523078067}
+  - {fileID: 8839218969938041338}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 27.897, z: 0}
+--- !u!114 &8699858852482616555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5239556815908734507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68521109acd204d4b95977b2772f8f9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  Obstacle:
+  - {fileID: 3328475607137304314}
+  - {fileID: 7738464367884882570}
+  - {fileID: 7758929963545615771}
+  - {fileID: 4887373042551888880}
+  - {fileID: 8083582536982277541}
+  - {fileID: 7638517332808349205}
+  - {fileID: 5000025192061290789}
+  - {fileID: 3077456962397093129}
+  - {fileID: 679096851614540877}
+  - {fileID: 7844850951844457549}
+  - {fileID: 5037484272548416000}
+  - {fileID: 8070688648761476858}
+  - {fileID: 1063797347295612915}
+  - {fileID: 1776233188356128082}
+  - {fileID: 4008157296346119975}
+  - {fileID: 8169381436705140232}
+  - {fileID: 8976024508686269792}
+  - {fileID: 426954312632826350}
+  - {fileID: 587447202496395027}
+  - {fileID: 8128990862318962526}
+  - {fileID: 3543091578417024759}
+  - {fileID: 1201825438683612081}
+  - {fileID: 8084726742082207683}
+  - {fileID: 7213077581521379625}
+  - {fileID: 7694588580628653894}
+  - {fileID: 7706175100447794074}
+  - {fileID: 2866984770829981597}
+  - {fileID: 7118125888725017050}
+  - {fileID: 8939613877189493}
+  - {fileID: 7896694293717226561}
+  - {fileID: 1340257327428583652}
+  - {fileID: 7912295505722575219}
+  - {fileID: 7264289000603243116}
+  - {fileID: 4975073815229869877}
+  - {fileID: 4020136400541650855}
+  - {fileID: 4649014731269846116}
+  - {fileID: 8820759823169622680}
+  - {fileID: 6901491401000166345}
+  countToDestroy: 0
+  forceImpulse: 0
+  water: {fileID: 0}
+  isHidrante: 0
+  have: {fileID: 8839218970288021731}
+  need: {fileID: 8839218970632291945}
+  canRotate: 0
+  fueUsado: 0
+  panelToFade: {fileID: 8839218969938041339}
+  inFade: 1
+  distance: 15
+--- !u!65 &741576248
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5239556815908734507}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.17039566, y: 0.39399144, z: 0.4281127}
+  m_Center: {x: -3.2160106, y: 0.1042577, z: -0.005494516}
 --- !u!1 &6901491401000166345
 GameObject:
   m_ObjectHideFlags: 0
@@ -1618,6 +2286,8 @@ GameObject:
   - component: {fileID: 475515351523078067}
   - component: {fileID: 6764601129861868600}
   - component: {fileID: 4629060259555865309}
+  - component: {fileID: 3180210838955828020}
+  - component: {fileID: 8632666723939543660}
   m_Layer: 0
   m_Name: Escalera_de_Parque.037
   m_TagString: Untagged
@@ -1688,6 +2358,35 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &3180210838955828020
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6901491401000166345}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.00012569905, y: 0.003912706, z: 0.0028180515}
+  m_Center: {x: -0.0000000037252903, y: 0, z: -5.8207654e-11}
+--- !u!54 &8632666723939543660
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6901491401000166345}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &7118125888725017050
 GameObject:
   m_ObjectHideFlags: 0
@@ -1699,6 +2398,8 @@ GameObject:
   - component: {fileID: 1929421539455467202}
   - component: {fileID: 2462182152694608577}
   - component: {fileID: 207235155754129090}
+  - component: {fileID: 5912998190315280521}
+  - component: {fileID: 980589978283993283}
   m_Layer: 0
   m_Name: Escalera_de_Parque.027
   m_TagString: Untagged
@@ -1769,6 +2470,35 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &5912998190315280521
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7118125888725017050}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.001029525, y: 0.00006267547, z: 0.00006267547}
+  m_Center: {x: -0.0000000037252903, y: 0, z: 0}
+--- !u!54 &980589978283993283
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7118125888725017050}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &7213077581521379625
 GameObject:
   m_ObjectHideFlags: 0
@@ -1780,6 +2510,8 @@ GameObject:
   - component: {fileID: 7774601645224135884}
   - component: {fileID: 49098898610120971}
   - component: {fileID: 8299197272464151216}
+  - component: {fileID: 9181667561941012172}
+  - component: {fileID: 4431674629199200625}
   m_Layer: 0
   m_Name: Escalera_de_Parque.023
   m_TagString: Untagged
@@ -1850,6 +2582,35 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &9181667561941012172
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7213077581521379625}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.001029525, y: 0.00006267547, z: 0.00006267547}
+  m_Center: {x: -0.0000000037252903, y: 0, z: 4.656613e-10}
+--- !u!54 &4431674629199200625
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7213077581521379625}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &7264289000603243116
 GameObject:
   m_ObjectHideFlags: 0
@@ -1861,6 +2622,8 @@ GameObject:
   - component: {fileID: 5957903686173505375}
   - component: {fileID: 268826313988800761}
   - component: {fileID: 8262986154208377926}
+  - component: {fileID: 1866585946242741732}
+  - component: {fileID: 8368961038629168998}
   m_Layer: 0
   m_Name: Escalera_de_Parque.032
   m_TagString: Untagged
@@ -1931,6 +2694,35 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &1866585946242741732
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7264289000603243116}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.001029525, y: 0.00006267547, z: 0.00006267547}
+  m_Center: {x: -0.0000000037252903, y: 0, z: 0}
+--- !u!54 &8368961038629168998
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7264289000603243116}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &7638517332808349205
 GameObject:
   m_ObjectHideFlags: 0
@@ -1942,6 +2734,8 @@ GameObject:
   - component: {fileID: 6219207430469280869}
   - component: {fileID: 3720888977532707525}
   - component: {fileID: 4842160826837657544}
+  - component: {fileID: 9104399690435162881}
+  - component: {fileID: 8939380322009266769}
   m_Layer: 0
   m_Name: Escalera_de_Parque.005
   m_TagString: Untagged
@@ -2012,6 +2806,35 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &9104399690435162881
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7638517332808349205}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.001029525, y: 0.00006267547, z: 0.00006267547}
+  m_Center: {x: -0.0000000037252903, y: 0, z: 0}
+--- !u!54 &8939380322009266769
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7638517332808349205}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &7694588580628653894
 GameObject:
   m_ObjectHideFlags: 0
@@ -2023,6 +2846,8 @@ GameObject:
   - component: {fileID: 7623719895867734962}
   - component: {fileID: 5932433777654765143}
   - component: {fileID: 4444565897069061066}
+  - component: {fileID: 4683040574758205610}
+  - component: {fileID: 8777177490773726765}
   m_Layer: 0
   m_Name: Escalera_de_Parque.024
   m_TagString: Untagged
@@ -2093,6 +2918,35 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &4683040574758205610
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7694588580628653894}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.001029525, y: 0.00006267547, z: 0.00006267547}
+  m_Center: {x: -0.0000000037252903, y: -0.0000000037252903, z: 4.656613e-10}
+--- !u!54 &8777177490773726765
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7694588580628653894}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &7706175100447794074
 GameObject:
   m_ObjectHideFlags: 0
@@ -2104,6 +2958,8 @@ GameObject:
   - component: {fileID: 2711527955364672892}
   - component: {fileID: 7302721081586650124}
   - component: {fileID: 4610523531696127238}
+  - component: {fileID: 633462739777162202}
+  - component: {fileID: 7061371269455776749}
   m_Layer: 0
   m_Name: Escalera_de_Parque.025
   m_TagString: Untagged
@@ -2174,6 +3030,35 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &633462739777162202
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7706175100447794074}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.001029525, y: 0.00006267547, z: 0.00006267547}
+  m_Center: {x: -0.0000000037252903, y: 0, z: 0}
+--- !u!54 &7061371269455776749
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7706175100447794074}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &7738464367884882570
 GameObject:
   m_ObjectHideFlags: 0
@@ -2185,6 +3070,8 @@ GameObject:
   - component: {fileID: 6301696099513312918}
   - component: {fileID: 5735599105055542926}
   - component: {fileID: 8825587357839667997}
+  - component: {fileID: 3738282724294020211}
+  - component: {fileID: 7668706845197755931}
   m_Layer: 0
   m_Name: Escalera_de_Parque.001
   m_TagString: Untagged
@@ -2255,6 +3142,35 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &3738282724294020211
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7738464367884882570}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.001029525, y: 0.00006267547, z: 0.00006267547}
+  m_Center: {x: -0.000000007450581, y: 0, z: 0}
+--- !u!54 &7668706845197755931
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7738464367884882570}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &7758929963545615771
 GameObject:
   m_ObjectHideFlags: 0
@@ -2266,6 +3182,8 @@ GameObject:
   - component: {fileID: 6591717997561423317}
   - component: {fileID: 8058309961140524966}
   - component: {fileID: 2935889276925830861}
+  - component: {fileID: 8729754744331599667}
+  - component: {fileID: 2236204618563951364}
   m_Layer: 0
   m_Name: Escalera_de_Parque.002
   m_TagString: Untagged
@@ -2336,6 +3254,35 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8729754744331599667
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7758929963545615771}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.001029525, y: 0.00006267547, z: 0.00006267547}
+  m_Center: {x: -0.0000000037252903, y: 0, z: 0}
+--- !u!54 &2236204618563951364
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7758929963545615771}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &7844850951844457549
 GameObject:
   m_ObjectHideFlags: 0
@@ -2347,6 +3294,8 @@ GameObject:
   - component: {fileID: 7088819218977149030}
   - component: {fileID: 8346076617476440329}
   - component: {fileID: 1991992208439776109}
+  - component: {fileID: 1809444908330615351}
+  - component: {fileID: 5248531522650904244}
   m_Layer: 0
   m_Name: Escalera_de_Parque.009
   m_TagString: Untagged
@@ -2417,6 +3366,35 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &1809444908330615351
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7844850951844457549}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.001029525, y: 0.00006267547, z: 0.00006267547}
+  m_Center: {x: -0.000000007450581, y: 0, z: 0}
+--- !u!54 &5248531522650904244
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7844850951844457549}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &7896694293717226561
 GameObject:
   m_ObjectHideFlags: 0
@@ -2428,6 +3406,8 @@ GameObject:
   - component: {fileID: 1456617145712131181}
   - component: {fileID: 7647345139099427716}
   - component: {fileID: 4952868433015132112}
+  - component: {fileID: 2426204132421050855}
+  - component: {fileID: 7507983536658127174}
   m_Layer: 0
   m_Name: Escalera_de_Parque.029
   m_TagString: Untagged
@@ -2498,6 +3478,35 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &2426204132421050855
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7896694293717226561}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.001029525, y: 0.00006267547, z: 0.00006267547}
+  m_Center: {x: -0.0000000037252903, y: 0, z: 2.3283064e-10}
+--- !u!54 &7507983536658127174
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7896694293717226561}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &7912295505722575219
 GameObject:
   m_ObjectHideFlags: 0
@@ -2509,6 +3518,8 @@ GameObject:
   - component: {fileID: 3889974693810818537}
   - component: {fileID: 682845889046518914}
   - component: {fileID: 3377492606166887850}
+  - component: {fileID: 6692507920209127153}
+  - component: {fileID: 6322461385047173410}
   m_Layer: 0
   m_Name: Escalera_de_Parque.031
   m_TagString: Untagged
@@ -2579,6 +3590,35 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &6692507920209127153
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7912295505722575219}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.001029525, y: 0.00006267547, z: 0.00006267547}
+  m_Center: {x: -0.0000000037252903, y: 0, z: 0}
+--- !u!54 &6322461385047173410
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7912295505722575219}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &8070688648761476858
 GameObject:
   m_ObjectHideFlags: 0
@@ -2590,6 +3630,8 @@ GameObject:
   - component: {fileID: 6662881070054553240}
   - component: {fileID: 5181177492620831837}
   - component: {fileID: 7546889929622820697}
+  - component: {fileID: 1581724529258011420}
+  - component: {fileID: 6720994255403251082}
   m_Layer: 0
   m_Name: Escalera_de_Parque.011
   m_TagString: Untagged
@@ -2660,6 +3702,35 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &1581724529258011420
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8070688648761476858}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.001029525, y: 0.00006267547, z: 0.00006267547}
+  m_Center: {x: -0.000000007450581, y: 0, z: 2.3283064e-10}
+--- !u!54 &6720994255403251082
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8070688648761476858}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &8083582536982277541
 GameObject:
   m_ObjectHideFlags: 0
@@ -2671,6 +3742,8 @@ GameObject:
   - component: {fileID: 328014033906263243}
   - component: {fileID: 8083756763428238109}
   - component: {fileID: 8362952173692377044}
+  - component: {fileID: 3865059100710293899}
+  - component: {fileID: 7229163779299360452}
   m_Layer: 0
   m_Name: Escalera_de_Parque.004
   m_TagString: Untagged
@@ -2741,6 +3814,35 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &3865059100710293899
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8083582536982277541}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.001029525, y: 0.00006267547, z: 0.00006267547}
+  m_Center: {x: -0.0000000037252903, y: 0, z: -2.3283064e-10}
+--- !u!54 &7229163779299360452
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8083582536982277541}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &8084726742082207683
 GameObject:
   m_ObjectHideFlags: 0
@@ -2752,6 +3854,8 @@ GameObject:
   - component: {fileID: 4064474504627853954}
   - component: {fileID: 844873727607281360}
   - component: {fileID: 4935946596982462418}
+  - component: {fileID: 6065982083483558025}
+  - component: {fileID: 7584871611634832748}
   m_Layer: 0
   m_Name: Escalera_de_Parque.022
   m_TagString: Untagged
@@ -2822,6 +3926,35 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &6065982083483558025
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8084726742082207683}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.001029525, y: 0.00006267547, z: 0.00006267547}
+  m_Center: {x: -0.0000000037252903, y: 0, z: 2.3283064e-10}
+--- !u!54 &7584871611634832748
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8084726742082207683}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &8128990862318962526
 GameObject:
   m_ObjectHideFlags: 0
@@ -2833,6 +3966,8 @@ GameObject:
   - component: {fileID: 7619642536708068197}
   - component: {fileID: 7404162296362439217}
   - component: {fileID: 7210969138477739665}
+  - component: {fileID: 6628837831414071394}
+  - component: {fileID: 7911612259838919311}
   m_Layer: 0
   m_Name: Escalera_de_Parque.019
   m_TagString: Untagged
@@ -2903,6 +4038,35 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &6628837831414071394
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8128990862318962526}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.001029525, y: 0.00006267547, z: 0.00006267547}
+  m_Center: {x: -0.000000007450581, y: 0, z: 2.3283064e-10}
+--- !u!54 &7911612259838919311
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8128990862318962526}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &8169381436705140232
 GameObject:
   m_ObjectHideFlags: 0
@@ -2914,6 +4078,8 @@ GameObject:
   - component: {fileID: 1575590833000286736}
   - component: {fileID: 5490246621869902139}
   - component: {fileID: 4575794871730204533}
+  - component: {fileID: 3633444976272566342}
+  - component: {fileID: 1485358204602862560}
   m_Layer: 0
   m_Name: Escalera_de_Parque.015
   m_TagString: Untagged
@@ -2984,6 +4150,35 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &3633444976272566342
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8169381436705140232}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.001029525, y: 0.00006267547, z: 0.00006267547}
+  m_Center: {x: -0.0000000037252903, y: 0, z: 1.1641532e-10}
+--- !u!54 &1485358204602862560
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8169381436705140232}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &8820759823169622680
 GameObject:
   m_ObjectHideFlags: 0
@@ -2995,6 +4190,8 @@ GameObject:
   - component: {fileID: 5936221511260456842}
   - component: {fileID: 532309917422985807}
   - component: {fileID: 2517154327098226995}
+  - component: {fileID: 4786352027491719497}
+  - component: {fileID: 4887609554665644674}
   m_Layer: 0
   m_Name: Escalera_de_Parque.036
   m_TagString: Untagged
@@ -3065,6 +4262,35 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &4786352027491719497
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8820759823169622680}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.00012569905, y: 0.003912706, z: 0.0028180515}
+  m_Center: {x: -0.000000007450581, y: 0, z: -5.8207654e-11}
+--- !u!54 &4887609554665644674
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8820759823169622680}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &8976024508686269792
 GameObject:
   m_ObjectHideFlags: 0
@@ -3076,6 +4302,8 @@ GameObject:
   - component: {fileID: 8989360817178789379}
   - component: {fileID: 5621050557933433367}
   - component: {fileID: 1259665566850346593}
+  - component: {fileID: 224402146572014061}
+  - component: {fileID: 4992308299062059376}
   m_Layer: 0
   m_Name: Escalera_de_Parque.016
   m_TagString: Untagged
@@ -3146,3 +4374,202 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &224402146572014061
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8976024508686269792}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.001029525, y: 0.00006267547, z: 0.00006267547}
+  m_Center: {x: -0.000000007450581, y: 0, z: 5.820766e-11}
+--- !u!54 &4992308299062059376
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8976024508686269792}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!1001 &2852845615781997998
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4899201185653185681}
+    m_Modifications:
+    - target: {fileID: 6718351580849665107, guid: 0093f51ef59c1304c9aa9c9195ecd548,
+        type: 3}
+      propertyPath: m_Name
+      value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 6718351580849665108, guid: 0093f51ef59c1304c9aa9c9195ecd548,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6718351580849665108, guid: 0093f51ef59c1304c9aa9c9195ecd548,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6718351580849665108, guid: 0093f51ef59c1304c9aa9c9195ecd548,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 38
+      objectReference: {fileID: 0}
+    - target: {fileID: 6718351580849665108, guid: 0093f51ef59c1304c9aa9c9195ecd548,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6718351580849665108, guid: 0093f51ef59c1304c9aa9c9195ecd548,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6718351580849665108, guid: 0093f51ef59c1304c9aa9c9195ecd548,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6718351580849665108, guid: 0093f51ef59c1304c9aa9c9195ecd548,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6718351580849665108, guid: 0093f51ef59c1304c9aa9c9195ecd548,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6718351580849665108, guid: 0093f51ef59c1304c9aa9c9195ecd548,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0.47804
+      objectReference: {fileID: 0}
+    - target: {fileID: 6718351580849665108, guid: 0093f51ef59c1304c9aa9c9195ecd548,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.1948852
+      objectReference: {fileID: 0}
+    - target: {fileID: 6718351580849665108, guid: 0093f51ef59c1304c9aa9c9195ecd548,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.6136935
+      objectReference: {fileID: 0}
+    - target: {fileID: 6718351580849665108, guid: 0093f51ef59c1304c9aa9c9195ecd548,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.1948852
+      objectReference: {fileID: 0}
+    - target: {fileID: 6718351580849665108, guid: 0093f51ef59c1304c9aa9c9195ecd548,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6718351580849665108, guid: 0093f51ef59c1304c9aa9c9195ecd548,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6718351580849665108, guid: 0093f51ef59c1304c9aa9c9195ecd548,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.039
+      objectReference: {fileID: 0}
+    - target: {fileID: 6718351580849665108, guid: 0093f51ef59c1304c9aa9c9195ecd548,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6718351580849665108, guid: 0093f51ef59c1304c9aa9c9195ecd548,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6718351580849665108, guid: 0093f51ef59c1304c9aa9c9195ecd548,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6718351580849665108, guid: 0093f51ef59c1304c9aa9c9195ecd548,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6718351580849665108, guid: 0093f51ef59c1304c9aa9c9195ecd548,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -2.956
+      objectReference: {fileID: 0}
+    - target: {fileID: 6718351580849665108, guid: 0093f51ef59c1304c9aa9c9195ecd548,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.208
+      objectReference: {fileID: 0}
+    - target: {fileID: 6718351580849665108, guid: 0093f51ef59c1304c9aa9c9195ecd548,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6718351580849665108, guid: 0093f51ef59c1304c9aa9c9195ecd548,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6718351580849665108, guid: 0093f51ef59c1304c9aa9c9195ecd548,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0093f51ef59c1304c9aa9c9195ecd548, type: 3}
+--- !u!224 &8839218969938041338 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 6718351580849665108, guid: 0093f51ef59c1304c9aa9c9195ecd548,
+    type: 3}
+  m_PrefabInstance: {fileID: 2852845615781997998}
+  m_PrefabAsset: {fileID: 0}
+--- !u!225 &8839218969938041339 stripped
+CanvasGroup:
+  m_CorrespondingSourceObject: {fileID: 6718351580849665109, guid: 0093f51ef59c1304c9aa9c9195ecd548,
+    type: 3}
+  m_PrefabInstance: {fileID: 2852845615781997998}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8839218970288021731 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6718351580508065101, guid: 0093f51ef59c1304c9aa9c9195ecd548,
+    type: 3}
+  m_PrefabInstance: {fileID: 2852845615781997998}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8839218970632291945 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6718351579895425991, guid: 0093f51ef59c1304c9aa9c9195ecd548,
+    type: 3}
+  m_PrefabInstance: {fileID: 2852845615781997998}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
