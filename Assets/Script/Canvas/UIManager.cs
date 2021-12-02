@@ -10,12 +10,24 @@ public class UIManager : MonoBehaviour
     public Image levelComplete;
     public CanvasGroup endLevelPanel, transitionPanel;
     public GameObject continueButton;
+    public GameObject loadIcon;
     public string nextLevel;
+
+    private bool activeLoad;
+    public float rotationSpeed;
 
     // Start is called before the first frame update
     void Start()
     {
-        //LevelComplete();
+        StartCoroutine(StartGame());
+    }
+
+    private void Update()
+    {
+        if (activeLoad)
+        {
+            loadIcon.transform.RotateAround(loadIcon.transform.position, Vector3.forward, rotationSpeed * Time.deltaTime);
+        }
     }
 
     public void LevelComplete()
@@ -25,7 +37,7 @@ public class UIManager : MonoBehaviour
 
     public void NextLevel()
     {
-        StartCoroutine(TransitionLevel());
+        StartCoroutine(ContinueGame());
     }
 
     IEnumerator CompleteAnim()
@@ -40,13 +52,29 @@ public class UIManager : MonoBehaviour
         yield break;
     }
 
-    IEnumerator TransitionLevel()
+    IEnumerator ContinueGame()
     {
-        FadePanel(transitionPanel, 1, 2, true);
-        yield return new WaitForSeconds(2);
+        int randomTime = Random.Range(4, 6);
+        FadePanel(transitionPanel, 1, 1, true);
+        activeLoadRotation(true);
+        yield return new WaitForSeconds(randomTime);
+        activeLoadRotation(false);
         SceneManager.LoadScene(nextLevel);
 
         yield break;
+    }
+
+    IEnumerator StartGame()
+    {
+        yield return new WaitForSeconds(1);
+        FadePanel(transitionPanel, 0, 1, false);
+
+        yield break;
+    }
+    public void activeLoadRotation(bool activeIcon)
+    {
+        loadIcon.SetActive(activeIcon);
+        activeLoad = activeIcon;
     }
 
     public void FadePanel(CanvasGroup panel, int alpha, float time, bool interactive)
